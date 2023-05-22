@@ -1,0 +1,48 @@
+display- inline, block, inline-block, flex, grid, hidden
+
+
+display:flex
+
+flex-direction		(row, column, row-reverse, column-reverse)
+flex-wrap			(wrap, nowrap, wrap-reverse)
+flex-flow			(flex-direction, flex-wrap)
+justify-content		(flex-start, flex-end, center, space-around, space-evenly, space between, stretch)
+align-items		()
+align-content		()
+
+------------------------------------------------------------------------------
+
+>>position- static, relative, absolute, fixed, sticky
+
+
+------------------------------------------------------------------------------------------------
+
+*>>For HTML:-
+
+<!DOCTYPE html>
+<html lang="en">(optional)
+    <meta charset="UTF-8">(optional)
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+-------------------------------------------------------------------------------------------------
+
+*>>For CSS:-
+
+@media (screen-width){
+	selector{....
+	}
+}
+
+max-width & min-width            Ex:-max-width:992px-atleast & min-width:atmost
+
+						max-width:992px	&	min-width:768px
+
+
+---------------------------------------------------------------------------------------------------
+
+extra small 486px - 576px
+small		576px - 768px
+medium	768px - 992px
+large		992px - 1200px, 1366px
+extra large 1366px and above
+
